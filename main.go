@@ -9,7 +9,7 @@
 package kwai
 
 import (
-	"github.com/WyntersN/go-kwai/core"
+	"github.com/9ovn/go-kwai/core"
 )
 
 var Store *core.Store
