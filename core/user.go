@@ -12,7 +12,7 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/WyntersN/GoKwai/core/result"
+	"github.com/WyntersN/go-kwai/core/result"
 )
 
 type User struct {
