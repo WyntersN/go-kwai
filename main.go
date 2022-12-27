@@ -6,10 +6,10 @@
  * @LastEditTime: 2022-12-25 17:40:27
  * @FilePath: \Public_GoKwai\main.go
  */
-package main
+package kwai
 
 import (
-	"github.com/WyntersN/GoKwai/core"
+	"github.com/9ovn/go-kwai/core"
 )
 
 var Store *core.Store

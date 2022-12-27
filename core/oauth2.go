@@ -8,7 +8,7 @@
  */
 package core
 
-import "github.com/WyntersN/GoKwai/core/result"
+import "github.com/9ovn/go-kwai/core/result"
 
 type Oauth2 struct {
 	ApiUrl string

@@ -20,7 +20,7 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/WyntersN/GoKwai/core/result"
+	"github.com/9ovn/go-kwai/core/result"
 )
 
 type Shop struct {

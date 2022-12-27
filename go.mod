@@ -1,11 +1,8 @@
-module github.com/WyntersN/go-kwai
+module github.com/9ovn/go-kwai
 
 go 1.19
 
-require (
-	github.com/WyntersN/GoKwai v0.0.1
-	github.com/imroc/req/v3 v3.26.5
-)
+require github.com/imroc/req/v3 v3.26.5
 
 require (
 	github.com/cheekybits/genny v1.0.0 // indirect
