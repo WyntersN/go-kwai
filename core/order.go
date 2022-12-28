@@ -12,9 +12,9 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/9ovn/go-kwai/core/result"
+	"github.com/WyntersN/go-kwai/core/result"
 
-	"github.com/9ovn/go-kwai/core/parameter"
+	"github.com/WyntersN/go-kwai/core/parameter"
 )
 
 type Order struct {

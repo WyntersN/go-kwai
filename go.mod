@@ -1,4 +1,4 @@
-module github.com/9ovn/go-kwai
+module github.com/WyntersN/go-kwai
 
 go 1.19
 

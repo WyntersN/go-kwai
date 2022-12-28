@@ -3,14 +3,12 @@
  * @version:
  * @Author: Wynters
  * @Date: 2022-11-07 17:51:31
- * @LastEditTime: 2022-12-25 17:40:27
+ * @LastEditTime: 2022-12-28 15:13:13
  * @FilePath: \Public_GoKwai\main.go
  */
 package kwai
 
-import (
-	"github.com/9ovn/go-kwai/core"
-)
+import "github.com/WyntersN/go-kwai/core"
 
 var Store *core.Store
 
