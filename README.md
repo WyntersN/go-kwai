@@ -3,7 +3,7 @@
  * @version: 
  * @Author: Wynters
  * @Date: 2022-12-25 17:18:48
- * @LastEditTime: 2022-12-28 15:35:58
+ * @LastEditTime: 2022-12-28 15:49:02
  * @FilePath: \Public_GoKwai\README.md
 -->
 ## <a name="Get-Started">Get Started</a>
@@ -38,13 +38,13 @@ tokenData := kwai.Store.Oauth2().Access_Token("code")
 
 //获取订单列表
 orderList, err := kwai.Store.Order(tokenData.AccessToken).Cursor_List(parameter.Order_CursorList{})
-if err != nil {
+if err == nil {
 	for _, v := range orderList.OrderList {
 	//遍历出所有订单号
 		println(v.OrderBaseInfo.Oid)
 	}
 } else {
-	println(err)
+	println(err.Error())
 }
 ```
 ## 对照参考 快手小店官方API https://open.kwaixiaodian.com/docs/api
