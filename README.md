@@ -3,7 +3,7 @@
  * @version: 
  * @Author: Wynters
  * @Date: 2022-12-25 17:18:48
- * @LastEditTime: 2022-12-28 15:49:02
+ * @LastEditTime: 2022-12-28 15:59:54
  * @FilePath: \Public_GoKwai\README.md
 -->
 ## <a name="Get-Started">Get Started</a>
@@ -19,7 +19,7 @@ go get github.com/WyntersN/go-kwai
 导入 go-kwai 到你的代码中:
 
 ```go
-import kwai "github.com/WyntersN/go-kwai"
+import  "github.com/WyntersN/go-kwai"
 ```
 
 **基本用途**
