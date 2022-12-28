@@ -3,7 +3,7 @@
  * @version: 
  * @Author: Wynters
  * @Date: 2022-12-25 17:18:48
- * @LastEditTime: 2022-12-28 15:14:01
+ * @LastEditTime: 2022-12-28 15:35:58
  * @FilePath: \Public_GoKwai\README.md
 -->
 ## <a name="Get-Started">Get Started</a>
@@ -47,4 +47,10 @@ if err != nil {
 	println(err)
 }
 ```
+## 对照参考 快手小店官方API https://open.kwaixiaodian.com/docs/api
+
+* 如调用 订单API->订单详情v2（open.order.detail）
+* 则只需要使用命令 kwai.Store.Order("token").Detail("oid")
+* 其中 kwai.Store(可以比作为open)后的Order().Detail() 与 官方中的order.detail是一一对应的，所以调用快手小店API只需要参考官网中的接口即可灵活使用本SDK。
+
 # 有什么问题可以提交issues
