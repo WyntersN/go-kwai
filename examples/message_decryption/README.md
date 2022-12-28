@@ -3,7 +3,7 @@
  * @version: 
  * @Author: Wynters
  * @Date: 2022-12-25 17:18:48
- * @LastEditTime: 2022-12-28 17:22:23
+ * @LastEditTime: 2022-12-28 17:31:43
  * @FilePath: \Public_GoKwai\examples\message_decryption\README.md
 -->
 
@@ -64,7 +64,7 @@ func (c *Content) irisPost(){
 	}
     if body, err := c.Ctx.GetBody(); err == nil {
         if content, err :=  kwai.Store.AesDecryptCBC(body); err == nil {
-            //打印明文内容
+			//打印明文内容
 			println(content)
 
 			//解析消息数据
